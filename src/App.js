@@ -11,6 +11,10 @@ export const App = () => {
   const Container = styled.div`
     display: flex;
     flex-direction: column;
+    max-width: 600px;
+    background-color: #213253;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+
     p {
       max-width: 150px;
       margin-bottom: 12px;
@@ -44,10 +48,6 @@ export const App = () => {
       align-self: flex-start;
     }
     
-    max-width: 600px;
-    height: 80vh;
-    background-color: #213253;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   `
   const ChatHeader = styled.header`
     padding: 20px;
